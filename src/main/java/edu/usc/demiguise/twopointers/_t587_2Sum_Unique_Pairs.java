@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class _t587_2Sum_Unique_Pairs {
     public int twoSum6(int[] nums, int target) {
         // write your code here
-        if (nums == null && nums.length < 2) {
+        if (nums == null || nums.length < 2) {
             return 0;
         }
 
