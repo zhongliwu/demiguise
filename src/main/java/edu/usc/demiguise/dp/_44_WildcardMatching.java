@@ -1,7 +1,7 @@
 package edu.usc.demiguise.dp;
 
 
-public class _44_wildcard_matching {
+public class _44_WildcardMatching {
 
     public boolean isMatch(String s, String p) {
         if (s == null || p == null) {
@@ -33,7 +33,7 @@ public class _44_wildcard_matching {
     }
 
     public static void main(String[] args) {
-        _44_wildcard_matching solution = new _44_wildcard_matching();
+        _44_WildcardMatching solution = new _44_WildcardMatching();
         solution.isMatch("a", "aa");
     }
 }
