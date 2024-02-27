@@ -1,18 +1,10 @@
 package edu.usc.demiguise;
 
-import static org.junit.Assert.assertTrue;
-
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * Unit test for simple App.
  */
 public class DemiguiseTest {
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue() {
-        assertTrue( true );
-    }
+
 }
